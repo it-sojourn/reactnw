@@ -1,0 +1,34 @@
+.paginator {
+    text-align: center;
+}
+
+.selectedPage .pagesBtnsOne {
+    font-weight: 700;
+    color: indianred;
+}
+
+.pagesBtns > span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+    height: 40px;
+    background-color: darkslateblue;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagesBtnsOne {
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: 8.5px;
+}
+
+.pagesBtns > span.pagesToggle {
+    border-radius: 0;
+    background-color: transparent;
+    display: inline;
+    position: relative;
+    top: 8px
+}

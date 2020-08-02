@@ -1,0 +1,16 @@
+.friendPerson {
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "i a";
+    grid-template-columns: 40px 1fr;
+}
+
+.friendPerson img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.friendPerson a {
+    place-self: center start;
+    margin-left: 10px;
+}

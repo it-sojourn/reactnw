@@ -1,0 +1,48 @@
+.avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.wrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 80px 200px 1fr;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    ;
+}
+.avatar {
+    grid-area: a;
+}
+.follow {
+    grid-area: d;
+    /*text-align: center;*/
+}
+
+.namestatus {
+    grid-area: e;
+
+}
+.selectedPage .pagesBtnsOne {
+    font-weight: 700;
+    color: indianred;
+}
+
+.pagesBtns > span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+    height: 40px;
+    background-color: darkslateblue;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagesBtnsOne {
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: 8.5px;
+}

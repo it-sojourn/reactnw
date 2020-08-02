@@ -1,0 +1,35 @@
+.nav {
+    grid-area: n;
+    /*background-color: burlywood;*/
+    background: #87A96B;
+    color: #698B4D;
+    background: linear-gradient(to bottom, #87A96B 0%, #789A5C 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87A96B), color-stop(100%, #789A5C));
+    background: -webkit-linear-gradient(top, #87A96B 0%, #789A5C 100%);
+    background: -moz-linear-gradient(top, #87A96B 0%, #789A5C 100%);
+    background: -o-linear-gradient(top, #87A96B 0%, #789A5C 100%);
+    background: -ms-linear-gradient(top, #87A96B 0%, #789A5C 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87A96B', endColorstr='#789A5C', GradientType=0);
+    border: 1px solid #698B4D;
+    text-shadow: 0 1px 0 #96B87A;
+    -webkit-text-shadow: 0 1px 0 #96B87A;
+    -moz-text-shadow: 0 1px 0 #96B87A;
+    box-shadow: inset 0 1px 0 #96B87A;
+    -webkit-box-shadow: inset 0 1px 0 #96B87A;
+    -moz-box-shadow: inset 0 1px 0 #96B87A;
+}
+
+.item {
+    color: white;
+    padding: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.item a.activeLink {
+    color: darkgoldenrod;
+}

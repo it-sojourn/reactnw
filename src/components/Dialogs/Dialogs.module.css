@@ -1,0 +1,52 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+}
+
+.dialogsitems {
+    padding: 10px;
+}
+
+.dialogsitems img {
+}
+
+.dialog {
+    padding: 10px;
+    display: grid;
+    align-items: start;
+    grid-template-areas:
+            "i a";
+    grid-template-columns: 40px 1fr;
+    overflow: hidden;
+
+}
+
+.dialog a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+    grid-area: a;
+    place-self: center start;
+}
+
+.dialog img {
+    height: 40px;
+    grid-area: i;
+    border-radius: 50%;
+}
+
+.messages {
+    padding: 10px;
+
+}
+
+.message {
+    padding: 10px;
+    height: 40px;
+}
+
+.addMessage {
+    grid-column-start: 2;
+    padding-left: 20px;
+}
